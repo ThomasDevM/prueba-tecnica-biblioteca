@@ -31,7 +31,7 @@ Bash
 
 git clone https://github.com/ThomasDevM/prueba-tecnica-biblioteca
 
-cd prueba-tecnica-itops
+cd prueba-tecnica-biblioteca
 
 docker compose up -d
 
