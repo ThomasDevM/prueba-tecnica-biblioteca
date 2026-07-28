@@ -6,9 +6,9 @@ COPY src ./src
 RUN mvn clean package -DskipTests
 
 # Etapa final (ejecución)
-FROM openjdk:17-jdk-slim
+# CAMBIA ESTA LÍNEA:
+FROM eclipse-temurin:17-jre-alpine 
 WORKDIR /app
-# Copiamos el archivo .jar generado en la etapa anterior
 COPY --from=build /app/target/*.jar app.jar
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "app.jar"]
