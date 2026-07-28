@@ -25,8 +25,8 @@ Git
 Cómo ejecutar el proyecto
 Ejecuta los siguientes comandos en la raíz del repositorio:  
 Bash
-git clone [URL_DE_TU_REPOSITORIO]
-cd [NOMBRE_DEL_PROYECTO]
+git clone 
+cd prueba-tecnica-itops
 docker compose up -d
 
 Acceso a los servicios:
