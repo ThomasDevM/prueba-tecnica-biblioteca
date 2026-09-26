@@ -1,4 +1,4 @@
-📚 Gestión de Libros - Prueba Técnica.
+Gestión de Libros - Prueba Técnica.
 
 Descripción.
 
